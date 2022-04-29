@@ -11,7 +11,7 @@ public class Student {
     }
 
     @Override
-    public String toString() {
+    public String toString() {              //Overwritten .toString() method
         return "Name: " + this.firstName + " " + this.lastName;
     }
 
